@@ -10,18 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
     <!--
-      Script load order matters!
-        1. scripts.js  - defines all Player classes (Player, NBAPlayer, NFLPlayer, MLBPlayer)
-                         AND all UI functions — must load FIRST
-        2. nba-data.js - uses NBAPlayer  (must come after scripts.js)
-        3. nfl-data.js - uses NFLPlayer
-        4. mlb-data.js - uses MLBPlayer
-      The inline <script> at the bottom of <body> runs init after everything is loaded.
+      Only scripts.js needs a <script> tag now.
+      The JSON data files (nba-data.json, nfl-data.json, mlb-data.json)
+      are loaded at runtime by loadAllData() using fetch().
     -->
     <script src="scripts.js"></script>
-    <script src="nba-data.js"></script>
-    <script src="nfl-data.js"></script>
-    <script src="mlb-data.js"></script>
   </head>
 
   <body>
@@ -56,10 +49,10 @@
     <main class="table-wrap">
       <table class="player-table">
         <thead>
-          <tr>
+          <tr id="stat-headers">
             <th class="th-avatar"></th>
             <th class="th-name">Player</th>
-            <th id="stat-headers" colspan="5"></th>
+            <!-- Stat <th> cells are injected here by renderStatHeaders() in scripts.js -->
           </tr>
         </thead>
         <tbody id="card-container"></tbody>
@@ -123,10 +116,9 @@
       </div>
     </div>
 
-    <!-- Init runs here so all data files are already loaded -->
+    <!-- Kick off the async data load once the page is ready -->
     <script>
-      renderHeaderStats();
-      renderCards();
+      loadAllData();
     </script>
   </body>
 </html>
