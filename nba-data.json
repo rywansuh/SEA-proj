@@ -1,0 +1,22 @@
+[
+  { "name": "Shai Gilgeous-Alexander", "team": "Oklahoma City Thunder",  "position": "PG", "age": 26, "ppg": 32.3, "rpg": 5.1,  "apg": 6.4,  "spg": 2.1, "bpg": 0.9 },
+  { "name": "Giannis Antetokounmpo",   "team": "Milwaukee Bucks",        "position": "PF", "age": 30, "ppg": 30.4, "rpg": 12.2, "apg": 6.0,  "spg": 1.1, "bpg": 1.2 },
+  { "name": "Jayson Tatum",            "team": "Boston Celtics",         "position": "SF", "age": 26, "ppg": 28.0, "rpg": 8.3,  "apg": 5.2,  "spg": 1.0, "bpg": 0.6 },
+  { "name": "Luka Doncic",             "team": "Los Angeles Lakers",     "position": "PG", "age": 25, "ppg": 27.8, "rpg": 8.3,  "apg": 8.0,  "spg": 1.4, "bpg": 0.5 },
+  { "name": "LeBron James",            "team": "Los Angeles Lakers",     "position": "SF", "age": 40, "ppg": 23.7, "rpg": 8.0,  "apg": 9.2,  "spg": 1.1, "bpg": 0.7 },
+  { "name": "Stephen Curry",           "team": "Golden State Warriors",  "position": "PG", "age": 36, "ppg": 26.4, "rpg": 4.4,  "apg": 5.2,  "spg": 1.4, "bpg": 0.3 },
+  { "name": "Kevin Durant",            "team": "Phoenix Suns",           "position": "SF", "age": 36, "ppg": 27.1, "rpg": 6.8,  "apg": 4.3,  "spg": 0.7, "bpg": 1.2 },
+  { "name": "Nikola Jokic",            "team": "Denver Nuggets",         "position": "C",  "age": 29, "ppg": 29.6, "rpg": 13.0, "apg": 10.2, "spg": 1.4, "bpg": 0.7 },
+  { "name": "Joel Embiid",             "team": "Philadelphia 76ers",     "position": "C",  "age": 30, "ppg": 24.2, "rpg": 8.6,  "apg": 4.5,  "spg": 1.0, "bpg": 1.7 },
+  { "name": "Devin Booker",            "team": "Phoenix Suns",           "position": "SG", "age": 28, "ppg": 25.8, "rpg": 4.0,  "apg": 6.5,  "spg": 0.9, "bpg": 0.4 },
+  { "name": "Jaylen Brown",            "team": "Boston Celtics",         "position": "SG", "age": 28, "ppg": 23.0, "rpg": 5.5,  "apg": 3.6,  "spg": 1.2, "bpg": 0.5 },
+  { "name": "Tyrese Haliburton",       "team": "Indiana Pacers",         "position": "PG", "age": 25, "ppg": 20.1, "rpg": 4.7,  "apg": 10.9, "spg": 1.6, "bpg": 0.3 },
+  { "name": "Donovan Mitchell",        "team": "Cleveland Cavaliers",    "position": "SG", "age": 28, "ppg": 24.9, "rpg": 4.5,  "apg": 4.9,  "spg": 1.5, "bpg": 0.3 },
+  { "name": "Damian Lillard",          "team": "Milwaukee Bucks",        "position": "PG", "age": 34, "ppg": 24.4, "rpg": 4.4,  "apg": 7.1,  "spg": 0.8, "bpg": 0.3 },
+  { "name": "Anthony Davis",           "team": "Los Angeles Lakers",     "position": "PF", "age": 31, "ppg": 26.2, "rpg": 12.6, "apg": 3.5,  "spg": 1.2, "bpg": 2.3 },
+  { "name": "Ja Morant",               "team": "Memphis Grizzlies",      "position": "PG", "age": 25, "ppg": 23.0, "rpg": 5.6,  "apg": 9.4,  "spg": 1.5, "bpg": 0.5 },
+  { "name": "Bam Adebayo",             "team": "Miami Heat",             "position": "C",  "age": 27, "ppg": 19.3, "rpg": 10.4, "apg": 4.0,  "spg": 1.1, "bpg": 0.8 },
+  { "name": "Jaren Jackson Jr.",       "team": "Memphis Grizzlies",      "position": "PF", "age": 25, "ppg": 21.5, "rpg": 6.5,  "apg": 2.0,  "spg": 0.8, "bpg": 2.9 },
+  { "name": "De'Aaron Fox",            "team": "San Antonio Spurs",      "position": "PG", "age": 27, "ppg": 26.1, "rpg": 4.4,  "apg": 6.4,  "spg": 1.7, "bpg": 0.4 },
+  { "name": "Victor Wembanyama",       "team": "San Antonio Spurs",      "position": "C",  "age": 21, "ppg": 24.3, "rpg": 10.7, "apg": 3.9,  "spg": 1.5, "bpg": 3.6 }
+]

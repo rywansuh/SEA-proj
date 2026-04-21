@@ -1,0 +1,22 @@
+[
+  { "name": "Shohei Ohtani",      "team": "Los Angeles Dodgers",   "position": "DH", "age": 30, "avg": 0.310, "hr": 44, "rbi": 130, "ops": 1.036, "sb": 20 },
+  { "name": "Freddie Freeman",    "team": "Los Angeles Dodgers",   "position": "1B", "age": 34, "avg": 0.282, "hr": 22, "rbi": 90,  "ops": 0.854, "sb": 5  },
+  { "name": "Juan Soto",          "team": "New York Yankees",      "position": "RF", "age": 25, "avg": 0.288, "hr": 41, "rbi": 109, "ops": 0.989, "sb": 10 },
+  { "name": "Ronald Acuña Jr.",   "team": "Atlanta Braves",        "position": "RF", "age": 26, "avg": 0.279, "hr": 41, "rbi": 106, "ops": 0.931, "sb": 73 },
+  { "name": "Mookie Betts",       "team": "Los Angeles Dodgers",   "position": "SS", "age": 31, "avg": 0.307, "hr": 19, "rbi": 75,  "ops": 0.894, "sb": 14 },
+  { "name": "Yordan Alvarez",     "team": "Houston Astros",        "position": "DH", "age": 27, "avg": 0.284, "hr": 31, "rbi": 101, "ops": 0.925, "sb": 2  },
+  { "name": "Aaron Judge",        "team": "New York Yankees",      "position": "CF", "age": 32, "avg": 0.322, "hr": 58, "rbi": 144, "ops": 1.159, "sb": 10 },
+  { "name": "Mike Trout",         "team": "Los Angeles Angels",    "position": "CF", "age": 32, "avg": 0.220, "hr": 10, "rbi": 26,  "ops": 0.799, "sb": 2  },
+  { "name": "Corey Seager",       "team": "Texas Rangers",         "position": "SS", "age": 30, "avg": 0.247, "hr": 20, "rbi": 62,  "ops": 0.780, "sb": 2  },
+  { "name": "Gunnar Henderson",   "team": "Baltimore Orioles",     "position": "SS", "age": 23, "avg": 0.281, "hr": 37, "rbi": 112, "ops": 0.898, "sb": 18 },
+  { "name": "Bobby Witt Jr.",     "team": "Kansas City Royals",    "position": "SS", "age": 24, "avg": 0.332, "hr": 32, "rbi": 99,  "ops": 0.935, "sb": 31 },
+  { "name": "Elly De La Cruz",    "team": "Cincinnati Reds",       "position": "SS", "age": 22, "avg": 0.259, "hr": 25, "rbi": 83,  "ops": 0.782, "sb": 67 },
+  { "name": "Pete Alonso",        "team": "New York Mets",         "position": "1B", "age": 29, "avg": 0.240, "hr": 34, "rbi": 88,  "ops": 0.823, "sb": 2  },
+  { "name": "Bryce Harper",       "team": "Philadelphia Phillies", "position": "1B", "age": 31, "avg": 0.290, "hr": 30, "rbi": 92,  "ops": 0.914, "sb": 7  },
+  { "name": "Paul Skenes",        "team": "Pittsburgh Pirates",    "position": "SP", "age": 22, "avg": 0.000, "hr": 0,  "rbi": 0,   "ops": 0.000, "sb": 0  },
+  { "name": "Tarik Skubal",       "team": "Detroit Tigers",        "position": "SP", "age": 27, "avg": 0.000, "hr": 0,  "rbi": 0,   "ops": 0.000, "sb": 0  },
+  { "name": "Jackson Holliday",   "team": "Baltimore Orioles",     "position": "2B", "age": 21, "avg": 0.231, "hr": 10, "rbi": 34,  "ops": 0.693, "sb": 5  },
+  { "name": "Francisco Lindor",   "team": "New York Mets",         "position": "SS", "age": 30, "avg": 0.273, "hr": 33, "rbi": 89,  "ops": 0.842, "sb": 25 },
+  { "name": "Trea Turner",        "team": "Philadelphia Phillies", "position": "SS", "age": 31, "avg": 0.261, "hr": 22, "rbi": 79,  "ops": 0.782, "sb": 29 },
+  { "name": "Jazz Chisholm Jr.",  "team": "New York Yankees",      "position": "3B", "age": 26, "avg": 0.276, "hr": 24, "rbi": 76,  "ops": 0.820, "sb": 26 }
+]
