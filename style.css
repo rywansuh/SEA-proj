@@ -253,27 +253,7 @@ body {
   font-size: 0.9rem;
 }
 
-/* ─── FOOTER ─────────────────────────────────────────────────────── */
-.footer {
-  background: var(--surface);
-  border-top: 1px solid var(--border);
-  display: flex;
-  justify-content: center;
-  gap: 12px;
-  padding: 1rem;
-}
-.footer button {
-  background: var(--surface-2);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-sm);
-  color: var(--text);
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.875rem;
-  padding: 0.5rem 1.25rem;
-  cursor: pointer;
-  transition: background 0.15s;
-}
-.footer button:hover { background: #2e2e2e; }
+
 
 /* ─── MODAL ──────────────────────────────────────────────────────── */
 .modal-overlay {

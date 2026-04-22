@@ -9,11 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
-    <!--
-      Only scripts.js needs a <script> tag now.
-      The JSON data files (nba-data.json, nfl-data.json, mlb-data.json)
-      are loaded at runtime by loadAllData() using fetch().
-    -->
     <script src="scripts.js"></script>
   </head>
 
@@ -32,15 +27,15 @@
 
     <!-- SPORT TABS -->
     <div class="tabs-bar">
-      <button class="tab-btn active" data-sport="NBA" onclick="switchSport('NBA')">🏀 NBA</button>
-      <button class="tab-btn"        data-sport="NFL" onclick="switchSport('NFL')">🏈 NFL</button>
-      <button class="tab-btn"        data-sport="MLB" onclick="switchSport('MLB')">⚾ MLB</button>
+      <button class="tab-btn active" data-sport="NBA" onclick="switcher('NBA')">🏀 NBA</button>
+      <button class="tab-btn"        data-sport="NFL" onclick="switcher('NFL')">🏈 NFL</button>
+      <button class="tab-btn"        data-sport="MLB" onclick="switcher('MLB')">⚾ MLB</button>
     </div>
 
     <!-- SEARCH + ADD -->
     <div class="controls-bar">
-      <input type="text" id="search" placeholder="Search by name or team…" oninput="handleSearch()" />
-      <button class="btn-add" onclick="openModal()">+ Add Player</button>
+      <input type="text" id="search" placeholder="Search by name or team…" oninput="whensearch()" />
+      <button class="btn-add" onclick="modaopen()">+ Add Player</button>
     </div>
 
     <div class="results-label" id="results-label"></div>
@@ -68,14 +63,10 @@
       </div>
     </div>
 
-    <!-- FOOTER -->
-    <footer class="footer">
-      <button onclick="quoteAlert()">Get A Quote!</button>
-      <button onclick="removeLastCard()">Remove Last Player</button>
-    </footer>
+
 
     <!-- ADD PLAYER MODAL -->
-    <div id="modal-overlay" class="modal-overlay" style="display:none;" onclick="handleOverlayClick(event)">
+    <div id="modal-overlay" class="modal-overlay" style="display:none;" onclick="whenclicker(event)">
       <div class="modal" role="dialog" aria-modal="true">
         <h2 id="modal-sport-label">Add Player</h2>
 
@@ -110,15 +101,15 @@
         <p id="form-error" class="form-error" style="display:none;"></p>
 
         <div class="modal-actions">
-          <button class="btn-primary" onclick="addPlayer()">Add Player</button>
-          <button class="btn-cancel"  onclick="closeModal()">Cancel</button>
+          <button class="btn-primary" onclick="addp()">Add Player</button>
+          <button class="btn-cancel"  onclick="modaclose()">Cancel</button>
         </div>
       </div>
     </div>
 
     <!-- Kick off the async data load once the page is ready -->
     <script>
-      loadAllData();
+      load();
     </script>
   </body>
 </html>
