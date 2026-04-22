@@ -192,12 +192,12 @@ function whensearch() {
 function redraw() {
   const players = sdata[currspo];
   const sample = players[0].stats();
-  let list = players.filter(p =>!sq ||p.name.toLowerCase().includes(sq) ||p.team.toLowerCase().includes(sq));
+  let list = players.filter(p =>!sq||p.name.toLowerCase().includes(sq) ||p.team.toLowerCase().includes(sq));
   if (sortk) {
     list = [...list].sort((a, b) => {
-      const av = a[sortk] !== undefined ? a[sortk] : 0;
-      const bv = b[sortk] !== undefined ? b[sortk] : 0;
-      return sortd === "desc" ? bv - av : av - bv;
+      let av = a[sortk] !== undefined ? a[sortk]: 0;
+      let bv = b[sortk] !== undefined ? b[sortk]: 0;
+      return sortd == "desc" ? bv - av : av - bv;
     });
   }
   heade(sample);
